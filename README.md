@@ -35,16 +35,23 @@ In addition to the mandatory part we did the wall collisions, a minimap system a
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Before launching the program you need to do a <strong>make</strong> or <strong>make bonus</strong> if you want to enable the minimap and the rotation with the mouse (the wall collisions are by default).
+Before launching the program you need to do a `make` or `make bonus` if you want to enable the minimap and the rotation with the mouse (the wall collisions are by default).
 
-After the executable named <strong>cub3d</strong> is created you can execute it by adding a path to the file that will be used as the map.
+After the executable named `cub3d` is created you can execute it by adding a path to the file that will be used as the map.
 
-We have a bunch of different maps in the <strong>maps</strong> folder including some that do not meet the requirements of the subject (in <strong>invalid</strong>).
+We have a bunch of different maps in the `maps` folder including some that do not meet the requirements of the subject (in `invalid`).
 
-Those file contain the path to the texture for each direction (NO for North, SO for South, WE for West and EA for East), the color of the floor and the ceiling.
-After that, and it is necessary that it is after those informations, the map is declared. The '1' represent the walls while the '0' are for the open spaces.
+Those file contain the path to the texture for each direction (`NO` for North, `SO` for South, `WE` for West and `EA` for East), the color of the floor and the ceiling.
+After that, and it is necessary that it is after those informations, the map is declared. The `1` represent the walls while the `0` are for the open spaces.
 
 You can customize as you like the colors for the floor and ceiling (modify their RGB values), change the textures with the other one available in the <strong>textures</strong> folder and change the aspect of the map as you like, but the map must always be closed by walls, there must be no gap around the map.
+
+All the keybindings are supported for a mac computer. It might not work depending on the configuration that you are using.
+
+You can move using the `W/A/S/D` keys.
+You can move the view with the `left arrow` and `right arrow`.
+Use `P` to show the mouse. Use `F` to hide the mouse. Use `M` to lock/unlock the mouse.
+Use `R` to reset the game, it will put the game in the initial state.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
