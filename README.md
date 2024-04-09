@@ -1,7 +1,7 @@
 
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT SUMMARY -->
 <div align="center">
     <img src="textures/eagle.png" alt="Logo" width="" height="80">
 
